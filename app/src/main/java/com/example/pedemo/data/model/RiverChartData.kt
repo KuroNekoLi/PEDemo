@@ -9,5 +9,7 @@ data class RiverChartData(
     @SerializedName("近四季EPS")
     val epsLastFourSeasons: String,
     @SerializedName("本益比股價基準")
-    val peRatioPriceBenchmark: List<String>
+    val peRatioPriceBenchmark: List<String>,
+    @SerializedName("月平均收盤價")
+    val averagePrice : String
 )
